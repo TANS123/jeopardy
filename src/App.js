@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import questionData from './question-data.json';
-
+import Question from './Question.js';
 
 function App() {
 
   return (
     <div className="App">
         <h1> Jeopardy </h1>
+        <div>
+            <Question />
+        </div>
         <div className="board">
             {/* Column - 1 (HISTORY) */}
             <div className="column">
